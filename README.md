@@ -45,3 +45,5 @@ Más allá de la configuración paso a paso, este laboratorio busca profundizar 
 - [ ] **Fase 3: Implementación de Servicios Centralizados e Identidad**
 - [ ] **Fase 4: Validación, pruebas de seguridad y baseline (v1.0)**
 - [ ] **Fase 5: Evolución Futura y nuevas funcionalidades**
+
+Autor: Jhonatan Reque Vela
