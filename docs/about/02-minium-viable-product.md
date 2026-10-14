@@ -7,8 +7,8 @@ El producto mínimo viable son los requisitos mínimos escogidos teniendo en cue
 El producto mínimo viable a nivel de hardware es:
 - 1 unidad de UPS básica de escritorio (650 VA como mínimo)
 - 1 unidad de mini-PC - 2 tarjetas de red
-- 1 unidad de AP (*Access Point*)
-- 1 unidad de switch no administrable - 8 puertos
+- 1 unidad de AP PoE (*Access Point*)
+- 1 unidad de switch administrable - 8 puertos
 - 1 unidad de disco duro externo para respaldo de 1 TB
 - Cables Ethernet y conectores RJ45 (sujetos a evaluación de infraestructura física real)
 
@@ -41,7 +41,7 @@ Es importante entender los riesgos que conlleva el producto mínimo viable (en e
 
 *MITIGACIONES:*
 1. El sistema se diseña estrictamente para datos transaccionales de atenciones médicas (historia clínica en formato liviano JSON/texto), delegando el almacenamiento histórico masivo y el procesamiento intensivo al servidor central en la nube.
-2. El diseño *offline-first* permite que toda transacción registrada localmente antes de que el UPS agote su energía permanezca íntegra y segura en el almacenamiento persistente, evitando la pérdida de información del paciente.
+2. El diseño *offline-first* permite que toda transacción registrada localmente antes de que el UPS agote su energía (sosteniendo el servidor y la red local) permanezca íntegra y segura en el almacenamiento persistente, evitando la pérdida de información del paciente.
 3. La base de datos local gestiona colas transaccionales eficientes e identificadores únicos (como UUIDs y código RENAES) para evitar colisiones al momento del envío.
 4. Se implementa cifrado de discos en caso de extracción física y la implementación de un gabinete con llave dentro de la posta, lo que minimiza el riesgo de manipulación por terceros.
 5. Se impide el uso de ancho de banda para dispositivos personales, priorizando el alcance a dispositivos autorizados. El AP es colocado en una zona central de cobertura preferencial.

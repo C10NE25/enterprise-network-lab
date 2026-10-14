@@ -1,6 +1,6 @@
 # HomeLab: Infraestructura de Red, Seguridad y Virtualización en Linux (Beta)
 
-**Fecha de Última Actualización:** Oct 6 - 2026  
+**Fecha de Última Actualización:** Oct 14 - 2026  
 **Estado:** En desarrollo - In progress
 
 ## Disclaimer
@@ -22,7 +22,7 @@ El area de salud representa un sector importante dentro de la vida diaria del se
   * Limitaciones internas: Dentro de sus limitaciones estan que sus procesos operativos son manuales, la infraestructura es limitada y disponen de un presupuesto reducido. -> Impiden la adquisicion de software comercial costoso y generan cuellos de botella en la atencion.
   * Limitaciones externas: Tenemos a la disponibilidad de Internet (inestable/inexistente), disponibilidad de la energia (inconsistente/inexistente). -> comprometen la disponibilidad de las historias clinicas en emergencia y las exponen a fallos.
 
-[Problematica.md](/docs/about/01-Problematica.md)
+Para mas detalles: [Problematica.md](/docs/about/01-Problematica.md)
 
 ## Objetivo
 
@@ -45,5 +45,9 @@ Más allá de la configuración paso a paso, este laboratorio busca profundizar 
 - [ ] **Fase 3: Implementación de Servicios Centralizados e Identidad**
 - [ ] **Fase 4: Validación, pruebas de seguridad y baseline (v1.0)**
 - [ ] **Fase 5: Evolución Futura y nuevas funcionalidades**
+
+## Indice actual
+1. [Problematica](/docs/about/01-Problematica.md)
+2. [Producto-Minimo-Viable](/docs/about/02-minium-viable-product.md)
 
 Autor: Jhonatan Reque Vela
