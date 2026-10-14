@@ -24,3 +24,14 @@ Es por eso que el proyecto esta orientado a solucionar ese cuello de botella cri
 - Generalmente los pacientes de I-1, I-2, son derivados hacia los centros medicos clasificados como I-3 que actuan como una cabecera.
 
 La decision fue basada teniendo en cuenta riesgo y consecuencias, esto no indica que las problematicas que presenta una posta medica de categoria I-1 o I-2 sea insignificante o ajena a la atencion.
+
+## La mayor limitacion
+
+La implementacion a nivel local se puede considerar uno de nuestros menores problemas, sin embargo, los centros de salud necesitan responder a los requerimientos de su misma area, por ejemplo los reportes a la DIRESA. En este caso nuestra mayor limitacion seria:
+- Caso A: El internet es inexistente.
+- Caso B: Existe conexion debial hacia internet(3G/4G).
+- Caso C: Existe conexion intermitente hacia Internet.
+Para aterrizar el caso, lo  que se esta pensado en implementar es un entorno hibrido (offline-first). 
+El motivo y razon es porque abarca los 3 casos de una mejor manera.
+En el caso A, las personas no requeririan regresar al papel, al contrario, pueden solucionarse de manera fisica, la informacion sigue siendo digital lo unico que necesitarian es movilizarse a una zona con cobertura y realizar la comunicacion con Internet para lo que necesiten.
+En el caso B y C, los cuales si tienen un acceso a internet, dependeria mucho mas de la configuracion implementada a nivel local (por ejemplo, metodologias para no saturar el ancho  de banda en el envio de informacion) y decisiones que abarcaremos mas adelante.
